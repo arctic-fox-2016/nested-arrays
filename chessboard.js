@@ -3,14 +3,14 @@
 //  |
 //  v
 // sd baris kedelapan
-var chessBoard = [[],[]]
-var pion = ["powns putih","powns hitam"]
-var pionHitam = []
-var pionPutih = []
-var kosong = []
-var kesatriaPutih = ["rook putih","knight putih","bishop putih","queen putih","king putih","bishop putih","knight putih","rook putih"]
-var kesatriaHitam = ["rook Hitam","knight Hitam","bishop Hitam","queen Hitam","king Hitam","bishop Hitam","knight Hitam","rook Hitam"]
-for (var i = 0; i < 8; i++) {
+let chessBoard = [[],[]]
+let pion = ["powns putih","powns hitam"]
+let pionHitam = []
+let pionPutih = []
+let kosong = []
+let kesatriaPutih = ["rook putih","knight putih","bishop putih","queen putih","king putih","bishop putih","knight putih","rook putih"]
+let kesatriaHitam = ["rook Hitam","knight Hitam","bishop Hitam","queen Hitam","king Hitam","bishop Hitam","knight Hitam","rook Hitam"]
+for (let i = 0; i < 8; i++) {
   pionPutih.push(pion[0])
   pionHitam.push(pion[1])
   kosong.push("kosong")
